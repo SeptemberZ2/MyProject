@@ -1,0 +1,148 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* 頂部導航欄樣式 */
+.TopBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.6); /* 半透明背景 */
+    position: fixed;
+    top: 0;
+    height: 30px;
+    width: 100%;
+    z-index: 1;
+}
+
+/* 導航欄內部連結樣式 */
+.TopBar-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.TopBar-links li {
+    margin: 0 15px;
+}
+
+.TopBar-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.TopBar-links a:hover {
+    color: #f39c12; /* 滑鼠懸停效果 */
+}
+
+/* 主題區樣式 */
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('background01.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 1000px;
+    color: white;
+    text-align: center;
+}
+
+.title h1 {
+    height: 650px;
+    font-size: 80px; /*字體大小*/
+    font-weight: bold; /*加粗*/
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /*字體陰影效果*/
+}
+
+/*側邊目錄*/
+.side-menu {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: fixed;
+    top: 25%;
+    right: -240px; 
+    width: 250px;
+    height: 350px;
+    background-color: #333333ad;
+    transition: right 0.3s ease;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.side-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.side-menu ul li {
+    padding: 15px;
+    text-align: center;
+}
+
+.side-menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.side-menu a:hover {
+    color: #f39c12;
+}
+
+/*四大流程*/
+.mainphase-container {
+    text-align: center;
+    padding: 50px;
+}
+
+.subtitle {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.mainphase-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mainphase {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+.mainphase img {
+    width: 100%;
+    height: 150px;
+    object-fit: auto;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+.mainphase h2 {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.mainphase p {
+    text-align: left;
+    font-size: 16px;
+    color: #666;
+}
