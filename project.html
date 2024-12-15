@@ -4,17 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>建築工程介紹</title>
-    <link rel="stylesheet" href="project.css"> <!-- 外部樣式 -->
+    <link rel="stylesheet" href="project.css">
 </head>
 <body>
     <!-- 頂部導航欄 -->
     <nav class="TopBar">
         <ul class="TopBar-links">
-            <li><a href="#services">Services</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#careers">Careers</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#Top">首頁</a></li>
+            <li><a href="#projects">第二頁</a></li>
+            <li><a href="#about">建築法規</a></li>
+            <li><a href="#careers">留言板</a></li>
         </ul>
     </nav>
 
@@ -22,9 +21,9 @@
     <div class="side-menu" id="sideMenu">
         <ul>
             <li><a href="#Top">首頁</a></li>
-            <li><a href="#menu">關於我們</a></li>
-            <li><a href="#menu2">服務</a></li>
-            <li><a href="#menu3">聯絡我們</a></li>
+            <li><a href="#phasefor4">施工四大流程</a></li>
+            <li><a href="#phasefor4start">詳細介紹</a></li>
+            <li><a href="#footer">頁尾</a></li>
         </ul>
     </div>
     
@@ -36,31 +35,138 @@
     </header>
 
     <!--四大流程-->
-    <div class="mainphase-container">
+    <div class="mainphase-container" id="phasefor4">
         <h1 class="subtitle">施工四大流程</h1>
         <div class="mainphase-box">
             <div class="mainphase">
-                <img src="phase1.jpg" alt="Preconstruction Planning">
+                <img src="./picture/phase1.jpg">
                 <h2>假設工程</h2>
                 <p>輔助施工，利於工程能夠安全且順利的進行下去。</p>
             </div>
             <div class="mainphase">
-                <img src="phase2.jpg" alt="Architectural Modelling">
+                <img src="./picture/phase2.jpg">
                 <h2>基礎工程</h2>
                 <p>確保建築物的安定與機能，穩固上部結構及基地四周。</p>
             </div>
             <div class="mainphase">
-                <img src="phase3.jpg" alt="Construction Management">
+                <img src="./picture/phase3.jpg">
                 <h2>結構工程</h2>
                 <p>建造建築物主要的構造，相當於構築房子的骨架。</p>
             </div>
             <div class="mainphase">
-                <img src="phase4.jpg" alt="Construction Management">
+                <img src="./picture/phase4.jpg">
                 <h2>裝修工程</h2>
                 <p>透過裝修改變空間的格局、色彩和材質，打造獨特的風格。</p>
             </div>
         </div>
     </div>
+    <br><br>
+
+    <!--假設工程-->
+    <div class="phase1-section" id="phasefor4start">
+        <div class="phase1-text">
+          <h2>假設工程</h2>
+          <p>
+            假設工程指的是施工過程中必須建立的一系列暫時性設施，這些設施在建築物完成後會被移除或廢棄。
+            在進行建築工程時，人們往往關注的是最終的結構成果，高聳的建築物、完美的外牆與堅固的地基。
+            然而，在這些華麗的成果背後，扶持整個施工過程的假設工程常常被忽視，這些暫時性的設施雖然不會出現在最終建築中，
+            但它們對於整個施工流程的順利進行及保護施工人員的安全至關重要。常見的假設工程包括
+            組合屋、圍籬、施工大門、塔吊、施工電梯、鷹架、施工護欄、基地點井抽水、安全觀測儀等。
+          </p>
+        </div>
+        <div class="phase1-image">
+          <div class="slider1">
+            <div class="slides1">
+                <img src="./picture/phase1_01.jpg" title="組合屋">
+                <img src="./picture/phase1_02.jpg" title="圍籬">
+                <img src="./picture/phase1_03.jpg" title="塔吊">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--基礎工程-->
+    <div class="phase2-section">
+        <div class="phase2-text">
+          <h2>基礎工程</h2>
+          <p>
+            基礎工程包含了擋土牆、安全支撐、土地開挖、基礎結構工程等。擋土牆及安全支撐能夠確保在土地開挖的過程中，
+            工地四周圍的土壤不會崩塌，防止鄰房倒塌、馬路損壞、施工人員傷亡等情況發生。基礎結構工程相當於在建造「建築物的腳」，
+            使其能撐起整個建築的重量並將其傳遞到土壤與岩盤上，與建築物日後的耐震強度以及安全性息息相關。
+            雖然基礎工程費用十分的高，完工後埋於地下又看不到，但其影響力不容小覷。
+          </p>
+        </div>
+        <div class="phase2-image">
+          <div class="slider2">
+            <div class="slides2">
+                <img src="./picture/phase2_01.jpg" title="預壘樁">
+                <img src="./picture/phase2_02.jpg" title="連續壁及安全支撐">
+                <img src="./picture/phase2_03.jpg" title="挖土機">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--結構工程-->
+    <div class="phase3-section">
+        <div class="phase3-text">
+          <h2>結構工程</h2>
+          <p>
+            結構工程是建造建築物主體的工程。常見的房屋結構工程有RC鋼筋混凝土、SC鋼骨結構以及SRC鋼骨鋼筋混凝土。
+            這些施工方法利用金屬的柔韌性及混凝土的高抗壓性，並基於力學分析及計算後去設計出能夠確保安全性
+            （如：結構不能在毫無徵兆的情況下破壞）、承受巨大的荷載、對抗氣候變化以及地震等自然災害的建築物。
+          </p>
+        </div>
+        <div class="phase3-image">
+          <div class="slider3">
+            <div class="slides3">
+                <img src="./picture/phase3_01.jpg" title="RC鋼骨結構">
+                <img src="./picture/phase3_02.jpg" title="SRC鋼骨混凝土">
+                <img src="./picture/phase3_03.jpg" title="施工中的建築物">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--裝修工程-->
+    <div class="phase4-section">
+        <div class="phase4-text">
+          <h2>裝修工程</h2>
+          <p>
+            建築裝修工程是指在建築結構完成後，為提升建築物的美觀性、功能性及舒適性而進行的後續工程。
+            裝修工程主要分成內部空間和外部立面的處理。裝修工程的種類非常的多，從基本的牆面、地面處理到更細緻的裝飾細節，都屬於裝修範疇。
+            裝修工程可以提升建築的功能性和市場吸引力，亦可增強舒適性提高使用者的生活質量，
+            還可以體現美學，通過材質、色彩及結構設計展現建築的美感和特色。
+          </p>
+        </div>
+        <div class="phase4-image">
+          <div class="slider4">
+            <div class="slides4">
+                <img src="./picture/phase4_01.jpg" title="室內裝修">
+                <img src="./picture/phase4_02.jpg" title="外牆裝修">
+                <img src="./picture/phase4_03.jpg" title="景觀工程">
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--頁尾資訊欄-->
+    <footer id="footer">
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>聯絡我們</h3>
+          <ul>
+            <li>Email:building199@mail.com.tw</li>
+            <li>電話:(04)2900-0000</li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>官方帳號</h3>
+          <div>
+            <ul>
+            <li><a href="https://www.facebook.com/?locale=zh_TW" target="_blank">Facebook</a></li>
+            <li><a href="https://www.line.me/tw/" target="_blank">Line</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
 <script src="project.js"></script> 
 </body>
 </html>

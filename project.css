@@ -1,6 +1,7 @@
 body, html {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 /* 頂部導航欄樣式 */
@@ -9,7 +10,7 @@ body, html {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: rgba(0, 0, 0, 0.6); /* 半透明背景 */
+    background-color: rgba(0, 0, 0, 0.6);
     position: fixed;
     top: 0;
     height: 30px;
@@ -45,7 +46,7 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('background01.jpg');
+    background-image: url('./picture/background01.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -69,10 +70,11 @@ body, html {
     top: 25%;
     right: -240px; 
     width: 250px;
-    height: 350px;
+    height: 215px;
     background-color: #333333ad;
     transition: right 0.3s ease;
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 1;
 }
 
 .side-menu ul {
@@ -119,12 +121,18 @@ body, html {
 }
 
 .mainphase {
-    background-color: #fff;
+    background-color: #f5f5f5;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 30%;
     text-align: center;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.mainphase:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
 }
 
 .mainphase img {
@@ -146,3 +154,256 @@ body, html {
     font-size: 16px;
     color: #666;
 }
+
+/*假設工程*/
+.phase1-section {
+    display: flex; /* 讓子元素左右並排 */
+    background-color: #f9f9f9; /* 區塊背景顏色 */
+    margin: 0; /* 外邊距設為 0 */
+    padding: 0; /* 移除內邊距 */
+    width: 100%; /* 確保區塊佔滿整個父容器 */
+    height: 400px; /* 設定高度，可根據需求調整 */
+}
+    
+.phase1-image {
+    flex: 1;
+    order: 2;
+}
+
+.phase1-text {
+    flex: 1;
+    padding: 0px;
+    background-color: #262626;
+    justify-content: center;
+    align-items: center; /*文字水平居中*/
+    text-align: center; /* 文字置中對齊 */
+    margin: 0; /* 確保無間距 */
+    order: 1;
+}
+    
+.phase1-text h2 {
+        padding: 40px;
+        color: #ffffff;
+        margin-bottom: 0px;    
+}
+.phase1-text p {
+        padding: 15px;
+        color: #e1e1e1;
+        line-height: 1.6;
+}
+/*基礎工程*/
+.phase2-section {
+    display: flex; /* 讓子元素左右並排 */
+    background-color: #f9f9f9; /* 區塊背景顏色 */
+    margin: 0; /* 外邊距設為 0 */
+    padding: 0; /* 移除內邊距 */
+    width: 100%; /* 確保區塊佔滿整個父容器 */
+    height: 400px; /* 設定高度，可根據需求調整 */
+}
+        
+.phase2-image {
+    flex: 1;
+    order: 1;
+}
+
+.phase2-text {
+    flex: 1;
+    padding: 0px;
+    background-color: #303030;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    order: 2;
+}
+    
+.phase2-text h2 {
+    padding: 40px;
+    color: #ffffff;
+    margin-bottom: 0px;    
+}
+.phase2-text p {
+    padding: 15px;
+    color: #e1e1e1;
+    line-height: 1.6;
+}
+
+/*結構工程*/
+.phase3-section {
+    display: flex; /* 讓子元素左右並排 */
+    background-color: #f9f9f9; /* 區塊背景顏色 */
+    margin: 0; /* 外邊距設為 0 */
+    padding: 0; /* 移除內邊距 */
+    width: 100%; /* 確保區塊佔滿整個父容器 */
+    height: 400px; /* 設定高度，可根據需求調整 */
+}
+    
+.phase3-image {
+    flex: 1;
+    order: 2;
+}
+
+.phase3-text {
+    flex: 1;
+    padding: 0px;
+    background-color: #3c3c3c;
+    justify-content: center;
+    align-items: center; /*文字水平居中*/
+    text-align: center; /* 文字置中對齊 */
+    margin: 0; /* 確保無間距 */
+    order: 1;
+}
+    
+.phase3-text h2 {
+        padding: 40px;
+        color: #ffffff;
+        margin-bottom: 0px;    
+}
+.phase3-text p {
+        padding: 15px;
+        color: #e1e1e1;
+        line-height: 1.6;
+}
+
+/*裝修工程*/
+.phase4-section {
+    display: flex;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 400px;
+}
+        
+.phase4-image {
+    flex: 1;
+    order: 1;
+}
+
+.phase4-text {
+    flex: 1;
+    padding: 0px;
+    background-color: #5a5a5a;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    order: 2;
+}
+    
+.phase4-text h2 {
+    padding: 40px;
+    color: #ffffff;
+    margin-bottom: 0px;    
+}
+.phase4-text p {
+    padding: 15px;
+    color: #e1e1e1;
+    line-height: 1.6;
+}
+
+/*輪播圖片*/    
+.slider1 {
+    overflow: hidden;
+}
+.slides1 {
+    display: flex;
+    transition: transform 0.7s ease-in-out;
+}
+.slides1 img {
+    width: 100%;
+    height: 400px;
+    size: cover;
+    position: center;
+    flex-shrink: 0;
+}
+
+.slider2 {
+    overflow: hidden;
+}
+.slides2 {
+    display: flex;
+    transition: transform 0.7s ease-in-out;
+}
+.slides2 img {
+    width: 100%;
+    height: 400px;
+    size: cover;
+    position: center;
+    flex-shrink: 0;
+}
+
+.slider3 {
+    overflow: hidden;
+}
+.slides3 {
+    display: flex;
+    transition: transform 0.7s ease-in-out;
+}
+.slides3 img {
+    width: 100%;
+    height: 400px;
+    size: cover;
+    position: center;
+    flex-shrink: 0;
+}
+
+.slider4 {
+    overflow: hidden;
+}
+.slides4 {
+    display: flex;
+    transition: transform 0.7s ease-in-out;
+}
+.slides4 img {
+    width: 100%;
+    height: 400px;
+    size: cover;
+    position: center;
+    flex-shrink: 0;
+}
+
+/*頁尾資訊欄*/
+footer {
+    background-color: rgb(255, 255, 255); 
+    color: black;
+    font-family: Arial, sans-serif;
+    padding: 20px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    max-width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  .footer-section h3 {
+    margin: 0 0;
+    margin-bottom: 10px;
+    font-size: 24px;
+    border-bottom: 1px solid #717171;
+    padding-bottom: 5px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section li {
+    margin: 5px 0;
+  }
+  
+  .footer-section a {
+    text-decoration: none;
+    color: #454545;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-section a:hover {
+    color: #f39c12;;
+  }
