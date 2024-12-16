@@ -38,7 +38,7 @@ body, html {
 }
 
 .TopBar-links a:hover {
-    color: #f39c12; /* 滑鼠懸停效果 */
+    color: #f39c12;
 }
 
 /* 主題區樣式 */
@@ -57,9 +57,9 @@ body, html {
 
 .title h1 {
     height: 650px;
-    font-size: 80px; /*字體大小*/
-    font-weight: bold; /*加粗*/
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /*字體陰影效果*/
+    font-size: 80px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 
 /*側邊目錄*/
@@ -157,12 +157,12 @@ body, html {
 
 /*假設工程*/
 .phase1-section {
-    display: flex; /* 讓子元素左右並排 */
-    background-color: #f9f9f9; /* 區塊背景顏色 */
-    margin: 0; /* 外邊距設為 0 */
-    padding: 0; /* 移除內邊距 */
-    width: 100%; /* 確保區塊佔滿整個父容器 */
-    height: 400px; /* 設定高度，可根據需求調整 */
+    display: flex;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 400px;
 }
     
 .phase1-image {
@@ -175,9 +175,9 @@ body, html {
     padding: 0px;
     background-color: #262626;
     justify-content: center;
-    align-items: center; /*文字水平居中*/
-    text-align: center; /* 文字置中對齊 */
-    margin: 0; /* 確保無間距 */
+    align-items: center;
+    text-align: center;
+    margin: 0;
     order: 1;
 }
     
@@ -193,12 +193,12 @@ body, html {
 }
 /*基礎工程*/
 .phase2-section {
-    display: flex; /* 讓子元素左右並排 */
-    background-color: #f9f9f9; /* 區塊背景顏色 */
-    margin: 0; /* 外邊距設為 0 */
-    padding: 0; /* 移除內邊距 */
-    width: 100%; /* 確保區塊佔滿整個父容器 */
-    height: 400px; /* 設定高度，可根據需求調整 */
+    display: flex;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 400px;
 }
         
 .phase2-image {
@@ -230,12 +230,12 @@ body, html {
 
 /*結構工程*/
 .phase3-section {
-    display: flex; /* 讓子元素左右並排 */
-    background-color: #f9f9f9; /* 區塊背景顏色 */
-    margin: 0; /* 外邊距設為 0 */
-    padding: 0; /* 移除內邊距 */
-    width: 100%; /* 確保區塊佔滿整個父容器 */
-    height: 400px; /* 設定高度，可根據需求調整 */
+    display: flex;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 400px;
 }
     
 .phase3-image {
@@ -248,9 +248,9 @@ body, html {
     padding: 0px;
     background-color: #3c3c3c;
     justify-content: center;
-    align-items: center; /*文字水平居中*/
-    text-align: center; /* 文字置中對齊 */
-    margin: 0; /* 確保無間距 */
+    align-items: center;
+    text-align: center;
+    margin: 0;
     order: 1;
 }
     
@@ -376,7 +376,7 @@ footer {
     justify-content: space-around;
     flex-wrap: nowrap;
     max-width: 100%;
-    height: 100px;
+    height: 120px;
     margin: 0 auto;
     padding: 10px;
   }

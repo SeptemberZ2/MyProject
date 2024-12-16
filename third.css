@@ -1,0 +1,226 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(217, 235, 217);
+}
+
+/*物件掉落*/
+.falling-image {
+    width: 150px; /* 圖片寬度 */
+    height: 150px; /* 圖片高度 */
+    background-image: url('./picture/thank_you.jpg');
+    background-size: cover; /* 讓圖片填滿方塊 */
+    position: fixed;
+    top: -160px; /* 初始位置在畫面上方 */
+    left: 50px;
+    animation: fall 7s ease-in forwards; /* 動畫名稱、時間、運動曲線、是否保持結束狀態 */
+}
+
+@keyframes fall {
+    to {
+        top: 100%;/* 結束位置在畫面底部 */
+    }
+}
+/* 頂部導航欄樣式 */
+.TopBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    height: 30px;
+    width: 100%;
+    z-index: 3;
+}
+
+/* 導航欄內部連結樣式 */
+.TopBar-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.TopBar-links li {
+    margin: 0 15px;
+}
+
+.TopBar-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.TopBar-links a:hover {
+    color: #f39c12;
+}
+
+/* 主題區樣式 */
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-image: url('./picture/thirdpage_background.jpg');
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: rgb(239, 239, 239);
+    text-align: center;
+}
+
+.title h1 {
+    height:27%;
+    font-size: 72px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+/*下拉式選單*/
+.tabs-container {
+    position: relative;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.tab-button {
+    background-color: #67d8a0;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    text-align: left;
+}
+
+.tab-button:hover {
+    background-color: #5ace94;
+}
+
+.content-container {
+    margin-top:0px;
+}
+
+.tab-content {
+    display: none;
+    padding: 0 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/*留言板*/
+.container {
+    transform: translate(0px,100px);
+    max-width: 800px;
+    height: auto;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+}
+.message {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+.message:last-child {
+    border-bottom: none;
+}
+.message strong {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.message p {
+    margin: 0;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: none;
+}
+.form-group button {
+    background-color: #33a462;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-group button:hover {
+    background-color: #24844c;
+}
+
+/*頁尾資訊欄*/
+footer {
+    background-color: rgb(255, 255, 255); 
+    color: black;
+    font-family: Arial, sans-serif;
+    padding: 20px 0;
+    transform: translate(0px,200px);
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    position:relative;
+    left: 0%;
+    max-width: 100%;
+    height: 120px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  .footer-section h3 {
+    margin: 0 0;
+    margin-bottom: 10px;
+    font-size: 24px;
+    border-bottom: 1px solid #717171;
+    padding-bottom: 5px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section li {
+    margin: 5px 0;
+  }
+  
+  .footer-section a {
+    text-decoration: none;
+    color: #454545;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-section a:hover {
+    color: #f39c12;;
+  }
