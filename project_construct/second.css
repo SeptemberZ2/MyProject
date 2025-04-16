@@ -49,7 +49,7 @@ body {
     max-width: 600px;
     overflow: hidden;
     border-radius: 10px;
-    transform: translate(480px,0px);
+    transform: translate(80%,0px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 

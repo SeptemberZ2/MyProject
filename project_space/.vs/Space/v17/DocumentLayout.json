@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Git_project\\space\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6E05370F-5DC6-4135-A914-03AF4717EF29}|Space\\Space.csproj|c:\\users\\user\\desktop\\git_project\\space\\space\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E05370F-5DC6-4135-A914-03AF4717EF29}|Space\\Space.csproj|solutionrelative:space\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E05370F-5DC6-4135-A914-03AF4717EF29}|Space\\Space.csproj|c:\\users\\user\\desktop\\git_project\\space\\space\\wwwroot\\css\\space.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6E05370F-5DC6-4135-A914-03AF4717EF29}|Space\\Space.csproj|solutionrelative:space\\wwwroot\\css\\space.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E05370F-5DC6-4135-A914-03AF4717EF29}|Space\\Space.csproj|c:\\users\\user\\desktop\\git_project\\space\\space\\wwwroot\\js\\space.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6E05370F-5DC6-4135-A914-03AF4717EF29}|Space\\Space.csproj|solutionrelative:space\\wwwroot\\js\\space.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Git_project\\space\\Space\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Space\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Git_project\\space\\Space\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Space\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-11T09:41:03.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "space.js",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Git_project\\space\\Space\\wwwroot\\js\\space.js",
+              "RelativeDocumentMoniker": "Space\\wwwroot\\js\\space.js",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Git_project\\space\\Space\\wwwroot\\js\\space.js",
+              "RelativeToolTip": "Space\\wwwroot\\js\\space.js",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAkwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-12T07:48:45.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "space.css",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Git_project\\space\\Space\\wwwroot\\css\\space.css",
+              "RelativeDocumentMoniker": "Space\\wwwroot\\css\\space.css",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Git_project\\space\\Space\\wwwroot\\css\\space.css",
+              "RelativeToolTip": "Space\\wwwroot\\css\\space.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-11T09:47:12.314Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
